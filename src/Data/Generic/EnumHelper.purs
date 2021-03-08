@@ -6,12 +6,12 @@ module Data.Generic.EnumHelper
 
 import Prelude
 import Data.Array (mapMaybe)
+import Data.Bounded.Generic (class GenericBottom, class GenericTop, genericBottom, genericTop)
+import Data.Enum.Generic (class GenericBoundedEnum, genericFromEnum, genericToEnum)
 import Data.Foldable (findMap)
 import Data.Generic.Rep (class Generic)
-import Data.Generic.Rep.Bounded (class GenericBottom, class GenericTop, genericBottom, genericTop)
-import Data.Generic.Rep.Enum (class GenericBoundedEnum, genericFromEnum, genericToEnum)
-import Data.Generic.Rep.Show (class GenericShow, genericShow)
 import Data.Maybe (Maybe(..))
+import Data.Show.Generic (class GenericShow, genericShow)
 import Data.Unfoldable1 (range)
 
 values ::
