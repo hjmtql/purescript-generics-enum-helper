@@ -1,10 +1,10 @@
 module Test.Main where
 
 import Prelude
-import Data.Generic.Rep (class Generic)
-import Data.Generic.Rep.Show (genericShow)
-import Data.Maybe (Maybe(..))
 import Data.Generic.EnumHelper (read, values, write)
+import Data.Generic.Rep (class Generic)
+import Data.Maybe (Maybe(..))
+import Data.Show.Generic (genericShow)
 import Effect (Effect)
 import Test.Assert (assertEqual)
 

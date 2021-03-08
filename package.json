@@ -1,0 +1,12 @@
+{
+  "name": "purescript-generics-enum-helper",
+  "license": "MIT",
+  "scripts": {
+    "build": "spago build",
+    "test": "spago test"
+  },
+  "devDependencies": {
+    "purescript": "^0.14.0",
+    "spago": "^0.19.1"
+  }
+}
